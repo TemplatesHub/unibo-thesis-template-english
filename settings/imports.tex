@@ -1,0 +1,112 @@
+% Encoding
+\usepackage[utf8]{inputenc}
+
+% Change this to any language you want
+\usepackage[english]{babel}
+\usepackage{csquotes}
+
+% Sets font to Times New Roman
+\usepackage{times}
+
+% Used for images positioning
+\usepackage{float}
+
+% Used to display links
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    linkcolor={black!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+}
+
+% Bibliography packages
+\usepackage[sorting=none]{biblatex}
+
+% Shows Contents and List of Figures in the table of contents
+\usepackage{tocbibind}
+
+% Math packages
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{stmaryrd}
+\usepackage{amssymb}
+
+% Algorithms.
+\usepackage[ruled]{algorithm2e}
+
+% Allows defining custom boxed/framed environments.
+\usepackage[framemethod=tikz]{mdframed}
+
+% File listings, with syntax highlighting.
+\usepackage{listings}
+
+%Control layout of itemize, enumerate, description.
+\usepackage{enumitem}
+
+% Sectioning commands for selection from various title styles.
+\usepackage{titlesec}
+
+% Required for adjusting page dimensions and margins.
+\usepackage{geometry}
+
+% Required for inputting international characters.
+\usepackage[utf8]{inputenc}
+
+% Output font encoding for international characters.
+\usepackage[T1]{fontenc}
+
+% Used for bibliography layout management
+\usepackage[final]{microtype}
+
+% Use the XCharter fonts.
+\usepackage{XCharter}
+
+% Colour control for LaTeX documents.
+\usepackage{color}
+\usepackage{xcolor}
+
+% Provides hyphenatable spacing out (letterspacing), underlining, striking out, etc.
+\usepackage{soul}
+
+% Makes possible to change line spacing locally
+\usepackage{setspace}
+
+\usepackage{fancyhdr}
+
+\definecolor{lightgray}{rgb}{.95,.95,.96}
+\definecolor{orange}{rgb}{1.0,.49,0.0}
+\definecolor{purple}{rgb}{0.65, 0.12, 0.82}
+
+\lstdefinelanguage{JavaScript}{
+  keywords={typeof, new, true, false, catch, function, return, null, catch, switch, var, if, in, while, do, else, case, break, const},
+  keywordstyle=\color{blue}\bfseries,
+  ndkeywords={class, export, boolean, throw, implements, import, this, Math},
+  ndkeywordstyle=\color{darkgray}\bfseries,
+  identifierstyle=\color{black},
+  sensitive=false,
+  comment=[l]{//},
+  morecomment=[s]{/*}{*/},
+  commentstyle=\color{purple}\ttfamily,
+  stringstyle=\color{red}\ttfamily,
+  morestring=[b]',
+  morestring=[b]"
+}
+
+\lstset{
+   language=JavaScript,
+   backgroundcolor=\color{lightgray},
+   extendedchars=true,
+   basicstyle=\footnotesize\ttfamily,
+   showstringspaces=false,
+   showspaces=false,
+   numbers=left,
+   numberstyle=\footnotesize,
+   numbersep=9pt,
+   tabsize=2,
+   breaklines=true,
+   showtabs=false,
+   captionpos=b
+}
+
+\usepackage[titletoc]{appendix}

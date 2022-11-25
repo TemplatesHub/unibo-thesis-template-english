@@ -1,0 +1,53 @@
+\documentclass[12pt,a4paper,twoside]{report}
+% Import all the packages
+\input{settings/imports}
+% Set margins
+\input{settings/margins}
+% Set line spacing
+\input{settings/line_spacing}
+% Setting for the table of contents
+\input{settings/table_of_contents.tex}
+% Additional commands
+\input{settings/commands.tex}
+
+% Add bibliography source
+\addbibresource{document/bibliography.bib}
+
+\begin{document}
+
+\input{document/title-page}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\leftmark}
+\fancyfoot[C]{\thepage}
+
+\pagenumbering{roman}
+
+\input{document/dedication.tex}
+
+\tableofcontents
+
+\newpage
+
+\listoffigures
+
+\newpage
+
+\input{document/acknowledgements.tex}
+
+\newpage
+
+\input{document/abstract.tex}
+
+\newpage
+
+\pagenumbering{arabic}
+
+\input{document/content}
+
+\newpage
+\addcontentsline{toc}{chapter}{Bibliography}
+\printbibliography
+
+\end{document}

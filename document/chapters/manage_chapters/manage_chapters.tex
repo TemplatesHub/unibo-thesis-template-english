@@ -1,0 +1,17 @@
+\chapter{How to manage the chapters}\label{how_to_manage_files}
+In the \textit{"document > chapters"} directory you can place the chapters that will compose your document.
+In particular, every chapter folder contains:
+\begin{itemize}
+    \item A \textbf{root file} (that, conventionally, has the same name as the directory), containing the definition of the chapter (some introductory text) and the inclusion of the chapter's sections
+    \item A \textbf{sections directory}, containing the sections composing the chapter
+    \item A \textbf{images directory}, containing all the images that belong to the chapter
+\end{itemize}
+
+You need to include the chapter's root file as input in \textit{"document > chapters > chapters.tex"} (that file is used by \textit{"document > content.tex"} which is included in \textit{"main.tex"}).
+
+\textbf{Pro-tip}: do not name chapters and sections with numbers; although it seems a good idea for ordering in the file manager, it is horrible if you need to move content (source: experience).
+
+\input{document/chapters/manage_chapters/sections/toc_depth.tex}
+\input{document/chapters/manage_chapters/sections/manage_images.tex}
+\input{document/chapters/manage_chapters/sections/manage_bibliography.tex}
+\input{document/chapters/manage_chapters/sections/add_and_use_commands.tex}
