@@ -39,7 +39,7 @@ First create a new tag, including a message that sums up the notes for the new r
 ```console
 git tag -a v<VERSION> -m "<RELEASE NOTES>" 
 ```
-Then push the new tag to the remote repository, triggering a workflow, crating automatically a new release with the compiled PDF document.
+Then push the new tag to the remote repository, triggering a workflow, automatically creating a new release with the compiled PDF document.
 ```console
 git push origin --tags
 ```
