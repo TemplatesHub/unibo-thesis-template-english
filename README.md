@@ -1,4 +1,7 @@
-# Unibo thesis template (English)
+# Unibo thesis template (English 🇺🇸)
+![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)   
 Write your __bachelor/master thesis__ in English using a valid __LaTeX template__ for __University of Bologna__ (__Unibo__).
 
 Check [this document](https://github.com/Tale152/master-thesis/releases/latest) to see an example of the final result.
