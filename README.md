@@ -20,7 +20,7 @@ The template contains a series of __additional commands__ that can help you crea
 Finally, through automation, you can __easily make your thesis document available online__ so that you will always have an easy-to-access way to get your compiled document from anywhere.
 
 ## Tutorial
-By clicking on ➡️ [this link](https://github.com/TemplatesHub/unibo_thesis_template/releases/latest) ⬅️ (or by going in the "__Releases__" section of this repository), you will get the latest draft of the document produced by this template.  
+By clicking on ➡️ [this link](https://github.com/TemplatesHub/unibo-thesis-template-english/releases/latest) ⬅️ (or by going in the "__Releases__" section of this repository), you will get the latest draft of the document produced by this template.  
 The document, other than showing the final result, contains a tutorial explaining how to use this template.
 
 ## Compile the Document on VSCode
