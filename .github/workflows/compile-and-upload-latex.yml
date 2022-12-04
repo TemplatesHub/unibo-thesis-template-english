@@ -6,4 +6,4 @@ on:
 
 jobs:
   build-and-release:
-    uses: TemplatesHub/gh-action-latex-build-and-release/.github/workflows/latex-build-and-release.yml@main
+    uses: TemplatesHub/gh-action-latex-build-and-release@v1
