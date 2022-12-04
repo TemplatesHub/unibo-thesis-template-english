@@ -1,9 +1,16 @@
-name: Build LaTeX document
+name: LaTeX document CD
 on:
   push:
     tags:
       - "v*.*.*"
-
 jobs:
   build-and-release:
-    uses: TemplatesHub/gh-action-latex-build-and-release@v1
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v2
+      - name: Build and release LaTeX document
+        uses: TemplatesHub/gh-action-latex-build-and-release@v1
+        with:
+          tex-entry-point: 'main'
+          pdf-name: 'My pdf document'
