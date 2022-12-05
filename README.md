@@ -33,14 +33,8 @@ Alternatively, recommended dependencies can be found under the extensions tab ty
 Follow [this](https://www.youtube.com/watch?v=4lyHIQl4VM8) tutorial to install the required software on Windows (if you installed the recommended dependencies you will already have LaTeX Workshop on VSCode).
 
 ## Releasing the PDF document
-Despite being able to compile your document locally, you may want to release it in your repository; in order to do that, you can use the following commands to create a new release that will automatically generate your PDF document, making it available as an attachment in your latest repository's release.  
+Despite being able to compile your document locally, you may want to release it in your repository; in order to do that, you can simply create a new release and this will automatically trigger a workflow. Said workflow will generate your PDF document, making it available as an attachment in your latest repository's release.  
 
-First create a new tag, including a message that sums up the notes for the new release. Note that the tag must begin with "v" (ex: v1.0.5).
-```console
-git tag -a v<VERSION> -m "<RELEASE NOTES>" 
-```
-Then push the new tag to the remote repository, triggering a workflow, automatically creating a new release with the compiled PDF document.
-```console
-git push origin --tags
-```
 Once the workflow is over, you will find your compiled document attached in the latest release of your repository.
+
+To customize the name of the final PDF file, see [this link](https://github.com/marketplace/actions/latex-build-and-release).
